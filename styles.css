@@ -1,0 +1,100 @@
+@font-face {
+  src: url("Minecraft.ttf");
+  font-family: Minecraft;
+}
+
+body {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  font-family: Minecraft, Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("images/minecraft-dirt.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#avatar {
+  margin: 0 20px 0 40px;
+  border: 10px solid #72a759;
+  border-radius: 50%;
+  min-width: 150px;
+  width: 15%;
+  box-shadow: 0 10px 15px #00000075; 
+}
+
+h1, h2, p {
+  color: #eee;
+  text-shadow: 0 0 15px black;
+}
+
+#avatar-section {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.gift-img {
+  background-image: url("images/gift-cover.png");
+  background-size: cover;
+  margin: 20px auto;
+  max-width: 400px;
+  height: 280px;
+  border: 8px solid white;
+  border-radius: 10px;
+}
+
+.gift-img:hover {
+  cursor: none;
+}
+
+#gift-img-congrats:hover {
+  background-image: url("gifs/congrats.gif");
+  
+}
+
+#gift-img-moment {
+  height: 220px;
+}
+
+#gift-img-moment:hover {
+  background-image: url("images/inesquecivel.jpeg");
+}
+
+#gift-img-amazed {
+  width: 280px;
+}
+
+#gift-img-amazed:hover {
+  background-image: url("gifs/edu.gif");
+}
+
+#gift-img-flower {
+  height: 220px;
+}
+
+#gift-img-flower:hover {
+  background-image: url("gifs/flower.gif");
+}
+
+#gift-img-scary {
+  width: 280px;
+}
+
+#gift-img-scary:hover {
+  background-image: url("images/assustadores.jpeg");
+}
+
+#gift-img-pet {
+  width: 280px;
+}
+
+#gift-img-pet:hover {
+  background-image: url("gifs/petpet.gif");
+}
