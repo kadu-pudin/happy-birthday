@@ -14,13 +14,23 @@ body {
   height: 100vh;
 }
 
+@media only screen and (max-width: 720px) {
+    .fadeshow {
+        display: none;
+    }
+    #avatar-section {
+      justify-content: center;
+      align-items: center;
+    }
+}
+
 #avatar {
-  margin: 0 20px 0 40px;
+  margin: 0 0px 0 45px;
   border: 10px solid #72a759;
   border-radius: 50%;
   min-width: 150px;
   width: 15%;
-  box-shadow: 0 10px 15px #00000075; 
+  box-shadow: 0 10px 15px #00000075;
 }
 
 h1, h2, p {
@@ -29,14 +39,16 @@ h1, h2, p {
 }
 
 #avatar-section {
+  min-width: 30%;
   margin: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .gift-section {
   margin-top: 50px;
+  max-width: 375px;
   text-align: center;
 }
 
@@ -44,7 +56,6 @@ h1, h2, p {
   background-image: url("images/gift-cover.png");
   background-size: cover;
   margin: 20px auto;
-  max-width: 400px;
   height: 280px;
   border: 8px solid white;
   border-radius: 10px;
